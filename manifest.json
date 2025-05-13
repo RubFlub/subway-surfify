@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Subway Surfify",
+  "version": "1.0",
+
+  "description": "Adds subway surfers gameplay to your webpages.",
+
+  "icons": {
+    "48": "icons/48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

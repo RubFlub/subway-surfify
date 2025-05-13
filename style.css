@@ -1,0 +1,20 @@
+#floating-video-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 300px;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  cursor: move;
+  transition: none;
+  height: 670px;
+}
+
+#floating-video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
